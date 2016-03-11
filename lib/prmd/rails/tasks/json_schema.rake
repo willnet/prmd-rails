@@ -17,5 +17,5 @@ namespace :json_schema do
     t.files = { 'schema/schema.json' => 'schema/schema.md' }
   end
 end
-
+desc 'Combine, verify, and generate documantation'
 task json_schema: ['json_schema:combine', 'json_schema:verify', 'json_schema:doc']

@@ -1,7 +1,6 @@
 require "prmd/rails/version"
-
+require 'prmd/rails/railtie'
 module Prmd
   module Rails
-    # Your code goes here...
   end
 end
