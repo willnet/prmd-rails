@@ -2,6 +2,8 @@
 
 JSON Schema tools for Rails Application, prmd wrapper
 
+**Now this gem is under construction**
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+rake json_schema          # Combine, verify, and generate documantation
+rake json_schema:combine  # Combine schemas
+rake json_schema:doc      # Generate documentation
+rake json_schema:verify   # Verify schemas
+```
 
 ## Development
 
